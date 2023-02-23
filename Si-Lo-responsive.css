@@ -20,7 +20,14 @@
     margin-top: 5px;
     margin-bottom: 10px;
   }
-
+  .name {
+    width: 100%;
+    gap: 10px;
+  }
+  #fname,
+  #lname {
+    width: 50%;
+  }
   h3 {
     font-size: 22px;
     margin: 0px;
@@ -31,14 +38,13 @@
   }
   body {
     height: 100vh;
-    background-image: url(furniture.png);
+    background-image: url(furniture-blur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 30px auto;
   }
   .container {
     width: 90vw;
-   
   }
   .login {
     margin: 100px auto;
@@ -63,7 +69,7 @@
   input[type="submit"] {
     height: 40px;
     padding: 0px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 5px;
     color: white;
     background-color: var(--tealColor);
@@ -78,6 +84,7 @@
     width: 100%;
     gap: 15px;
   }
+  
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   * {
@@ -101,10 +108,18 @@
   }
   body {
     height: 100vh;
-    background-image: url(furniture.png);
+    background-image: url(furniture-blur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 30px auto;
+  }
+  .name {
+    width: 100%;
+    gap: 10px;
+  }
+  #fname,
+  #lname {
+    width: 50%;
   }
   .code-phone {
     height: 100%;
@@ -119,6 +134,7 @@
 
   .login {
     margin: 100px auto;
+    width: 90%;
   }
   .image {
     display: none;
@@ -140,7 +156,7 @@
   input[type="submit"] {
     height: 40px;
     padding: 0px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 5px;
     color: white;
     background-color: var(--tealColor);
