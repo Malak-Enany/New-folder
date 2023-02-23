@@ -34,9 +34,11 @@
     background-image: url(furniture.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 30px auto;
   }
   .container {
     width: 90vw;
+   
   }
   .login {
     margin: 100px auto;
@@ -102,6 +104,7 @@
     background-image: url(furniture.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 30px auto;
   }
   .code-phone {
     height: 100%;

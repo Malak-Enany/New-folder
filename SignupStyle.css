@@ -40,7 +40,9 @@ body {
   gap: 30px;
 }
 .container {
+  
   margin-left: 30px;
+  
 }
 /* start form */
 #fname,
